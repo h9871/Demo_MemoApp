@@ -38,7 +38,8 @@ struct DetailView: View {
         .navigationTitle("메모 보기")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            ToolbarItemGroup(placement: .bottomBar) {
+            // .bottomBar 노출되지 않는 이슈 발생
+            ToolbarItemGroup(placement: .navigation) {
                 Button {
                     showDeleteAlert = true
                 } label: {
