@@ -13,6 +13,8 @@
 		3B07727529430B31005537FE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07727429430B31005537FE /* Persistence.swift */; };
 		3B07727829430B31005537FE /* MemoDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B07727629430B31005537FE /* MemoDemo.xcdatamodeld */; };
 		3B07727F29430B87005537FE /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07727E29430B87005537FE /* MainListView.swift */; };
+		3B07728329430C03005537FE /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07728229430C03005537FE /* Memo.swift */; };
+		3B07728529430C7F005537FE /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07728429430C7F005537FE /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		3B07727429430B31005537FE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3B07727729430B31005537FE /* MemoDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoDemo.xcdatamodel; sourceTree = "<group>"; };
 		3B07727E29430B87005537FE /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		3B07728229430C03005537FE /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		3B07728429430C7F005537FE /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		3B07728129430BB7005537FE /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				3B07728229430C03005537FE /* Memo.swift */,
+				3B07728429430C7F005537FE /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -160,9 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B07727829430B31005537FE /* MemoDemo.xcdatamodeld in Sources */,
+				3B07728529430C7F005537FE /* MemoStore.swift in Sources */,
 				3B07727F29430B87005537FE /* MainListView.swift in Sources */,
 				3B07727529430B31005537FE /* Persistence.swift in Sources */,
 				3B07726C29430B30005537FE /* MemoDemoApp.swift in Sources */,
+				3B07728329430C03005537FE /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
