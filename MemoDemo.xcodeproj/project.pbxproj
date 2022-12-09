@@ -17,6 +17,7 @@
 		3B07728529430C7F005537FE /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07728429430C7F005537FE /* MemoStore.swift */; };
 		3B0772892943107C005537FE /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0772882943107C005537FE /* MemoCell.swift */; };
 		3B07728B2943113D005537FE /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07728A2943113D005537FE /* ComposeView.swift */; };
+		3B07728D294313A8005537FE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07728C294313A8005537FE /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3B07728429430C7F005537FE /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		3B0772882943107C005537FE /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		3B07728A2943113D005537FE /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		3B07728C294313A8005537FE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				3B07727E29430B87005537FE /* MainListView.swift */,
 				3B0772882943107C005537FE /* MemoCell.swift */,
 				3B07728A2943113D005537FE /* ComposeView.swift */,
+				3B07728C294313A8005537FE /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B0772892943107C005537FE /* MemoCell.swift in Sources */,
+				3B07728D294313A8005537FE /* DetailView.swift in Sources */,
 				3B07727829430B31005537FE /* MemoDemo.xcdatamodeld in Sources */,
 				3B07728529430C7F005537FE /* MemoStore.swift in Sources */,
 				3B07727F29430B87005537FE /* MainListView.swift in Sources */,
