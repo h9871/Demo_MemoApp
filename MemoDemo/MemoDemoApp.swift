@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct MemoDemoApp: App {
+    @StateObject var store = MemoStore()
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
@@ -16,6 +17,7 @@ struct MemoDemoApp: App {
             // 처음 로딩 뷰
             MainListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(store)
         }
     }
 }
